@@ -4,10 +4,23 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TestImage</title>
+    <link rel="stylesheet" href="TestImage.css">
+    <script src="TestImage.js"></script>
 </head>
 <body>
 <div class="container">
-    Welcome to TestImage
+    <div id="title">
+        Welcome to TestImage
+    </div>
+    <div id="pImageBox">
+        <img src="" id="thumbnil">
+    </div>
+    <div id="import">
+        <input id="input" accept="image/*" type="file" onchange="hello(this)" name="myfile" />
+    </div>
+    <div id="childBox">
+
+    </div>
 </div>
 </body>
 </html>

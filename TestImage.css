@@ -1,0 +1,38 @@
+body{
+    background-color: #ffdd99;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+#title{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+#pImageBox{
+    display: flex;
+    margin: auto;
+    align-self: center;
+    justify-content: center;
+}
+#import{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+#input{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+#childBox{
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
